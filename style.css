@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: antiquewhite;
+    
+}
+ body::-webkit-scrollbar {
+      display: none;
+    }
+.top{
+    height: 20%;
+   
+}
+.container{
+    flex: 1;
+}
+
+.bottom{
+    display: flex;
+}
+.right{
+    width: 75%;
+    max-height: 760px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.left{
+    width: 25%;
+    height: 760px;
+    border-radius: 25px;
+    margin: 5px;
+    position: relative;
+}
+.nav{
+    display: flex;
+}
+.leftNav{
+    width: 60%;
+    margin-top: 5px;
+    display: flex;
+    align-items:center;
+}
+.leftNav input{
+    height: 50px;
+    width: 350px;
+    border: none;
+}
+.leftNav input:hover{
+    border: 1px solid white;
+
+}
+.rightNav{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.rightNav p{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+.rightNav p:hover{
+    cursor: pointer;
+    color: white;
+}
+.butimg img{
+   height: 25px;
+   width: 30px;
+}
+.logoimg img{
+    height: 35px;
+    width: 35px;
+    margin: 0px;
+}
+.up{
+    margin: 10px;
+}
+.up2{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tittle{
+    display: flex;
+    gap: 100px;
+}
+.close{
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    visibility: hidden;
+}
+.scroll{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.scroll-1{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.scroll::-webkit-scrollbar {
+  width: 10px; 
+  background-color:lightgray;
+}
+.scroll-1::-webkit-scrollbar {
+  width: 10px; 
+  background-color:rgba(211, 211, 211,0.2);
+  opacity: 1;
+}
+.down{
+    height: 280px;
+    position: absolute;
+}
+.login{
+    background-color: white;
+    height: 45px;
+    width: 103px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.login:hover{
+    cursor: pointer;
+    height: 50px;
+    width: 108px;
+    background-color:  rgba(255, 255, 255, 0.8) ;
+}
+.signup{
+    background-color: black;
+    border: none;
+     font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+.signup:hover{
+    cursor: pointer;
+    color: white;
+}
+.create button{
+    background-color: white;
+    height: 35px;
+    width: 123px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.podcast button{
+    background-color: white;
+    height: 35px;
+    width: 123px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.tittle{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 70px;
+}
+.tittle h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700; 
+}
+.down{
+    width: 25%;
+    display:inline;
+    margin-top: 60px;
+}
+.down a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b3b3b3;
+}
+.down h4{
+    margin:10px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b3b3b3;
+
+}
+.down img{
+    height: 20px;
+    width: 20px;
+}
+.down button{
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px solid white;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color:#121212 ;
+    color: white;
+    height: 32px;
+    width: 100px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.card{
+    height: 270px;
+    width: 197px;
+    margin-left: 40px;
+}
+.card:hover{
+    cursor: pointer;
+    .greenplay{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 120px;
+    bottom: 120px;
+    position: relative;
+    opacity: 1;
+    transition: 1s;
+    
+}
+
+}
+.card img{
+    height: 180px;
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card h3{
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.card p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-weight: 500;
+}
+.playbar{
+    height: 75px;
+    width: 1100px;
+    margin-left: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.playbar img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+.musicbox{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 300px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid white;
+     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info{
+    visibility: hidden;
+    display: none;
+}
+.seekbar{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.seek{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 1000px;
+    height:4px;
+    background-color: white;
+    
+}
+#random{
+    display: flex;
+    gap: 210px;
+    margin-top: 15px;
+}
+#songn{
+    height: 30px;
+    width: 300px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.ham img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+@media (max-width:1400px) {
+    .left{
+        position: absolute;
+        left:-100%;
+        transition: all 0.5s;
+        width: 300px;
+    }
+    .songlist ul{
+        padding-left: 0;
+    }
+    .musicbox{
+        width: 230px;
+    }
+    .right{
+        width: 100%;
+    }
+    .playbar{
+        width: 100%;
+        
+    }
+    .close{
+        visibility: visible;
+    }
+    .ham img{
+        visibility: visible;
+    }
+}

@@ -1,0 +1,166 @@
+.bgcolour{
+    background-color: #1f1f1f;
+}
+.bgbox{
+    background-color: #121212;
+}
+.buttonhome{
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+}
+
+.button{
+    border: none;
+    margin: 0;
+    height: 50px;
+    width: 50px;
+}
+.roundleft{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px ;
+}
+.roundright{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+}
+.borderradius{
+    border-radius: 10px;
+}
+.height{
+    height: 130px ;
+}
+.mheight{height: 20px;
+width: 20px;
+margin-left: 25px;
+}
+.pheight{
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+}
+.pheight{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    }
+.pad{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.margin{
+    margin-left:25px ;
+    
+}
+#h2{
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.par{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h1{
+    font-size: 24px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 20px;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+.greenplay{
+    opacity: 0;
+}
+.ply{
+    cursor: pointer;
+}
+.greenplay img{
+   height: 50px;
+   width: 50px;
+   filter: invert();
+}
+.cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.Artist{
+    margin-left: 40px;
+}
+.cardcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.card2 h3{
+    text-align:center;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.card2 img{
+    height: 180px;
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+   
+}
+.songlist ul{
+    padding-left: 20px;
+    list-style-type: none;
+}
+.songlist li{
+    list-style-type: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.circle img{
+    height: 20px;
+    width: 20px;
+    bottom: 9px;
+    margin:0;
+    position: relative;
+    transition: left 0.5s;
+}
+.circle-2 img{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    bottom: 5px;
+    margin:0;
+    left: 0;
+    position: relative;
+    transition: left 0.5s;
+}
+.vol{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 250px;
+}
+.volcontrol{
+    cursor: pointer;
+    height: 3px;
+    width: 100px;
+    background-color: white;
+}
+#volume{
+    filter: invert();
+    height: 25px;
+    width: 25px;
+
+}
