@@ -360,6 +360,10 @@ body{
     visibility: hidden;
 }
 @media (max-width:1000px) {
+    .top{
+    width: 100%;
+   
+}
     .left{
         position: absolute;
         left:-100%;
