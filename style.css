@@ -375,6 +375,9 @@ body{
     .right{
         width: 100%;
     }
+    .scroll-1{
+           overflow: unset;
+    }
     .playbar{
         width: 100%;
         
