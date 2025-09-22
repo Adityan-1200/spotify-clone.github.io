@@ -359,11 +359,7 @@ body{
     margin-left: 10px;
     visibility: hidden;
 }
-@media (max-width:1000px) {
-    .top{
-    width: 100%;
-   
-}
+@media (max-width:1400px) {
     .left{
         position: absolute;
         left:-100%;
@@ -378,11 +374,6 @@ body{
     }
     .right{
         width: 100%;
-    }
-    
-
-    .body{
-        background-colour:#121212;
     }
     .scroll-1{
            overflow: unset;
