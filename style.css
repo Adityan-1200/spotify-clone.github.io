@@ -375,6 +375,9 @@ body{
     .right{
         width: 100%;
     }
+    .body{
+        background-colour:#121212;
+    }
     .scroll-1{
            overflow: unset;
     }
