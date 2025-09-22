@@ -359,7 +359,7 @@ body{
     margin-left: 10px;
     visibility: hidden;
 }
-@media (max-width:1400px) {
+@media (max-width:1000px) {
     .left{
         position: absolute;
         left:-100%;
