@@ -170,10 +170,7 @@ h1{
     width: 75px;
     margin-left: 5px;
     margin-top: 3px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius:50%;
 }
 .card2 h3{
     font-size: 10px;
