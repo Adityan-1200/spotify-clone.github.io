@@ -165,6 +165,16 @@ h1{
 
 }
 @media (max-width:1000px) {
+.Artist{
+    margin-left: 10px;
+}
+.cardcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+    
 .card2 img{
     height: 75px;
     width: 75px;
